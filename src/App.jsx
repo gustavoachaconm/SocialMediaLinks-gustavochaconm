@@ -45,8 +45,8 @@ const App = () => {
           gustavochaconm.
         </p>
       </nav>
-      <div className="flex flex-col justify-center">
-        <section className="mx-auto bg-gray-50 p-9 pt-14">
+      <div className="flex flex-col justify-center bg-gray-50">
+        <section className="mx-auto  p-9 pt-14">
           <div className="mb-6 flex items-center">
             <Img />
             <div className="ml-6">
@@ -158,7 +158,7 @@ const App = () => {
                 <span className="text-green-600">
                   SocialMediaLinks by Gustavo Chacon
                 </span>{" "}
-                v2.
+                v1.
               </span>
               <span className="font-lato text-[10px]">
                 BUILDING SOFTWARE WITH<span className="mx-1">❤️</span>TO THE

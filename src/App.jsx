@@ -167,7 +167,7 @@ const App = () => {
                 <span className="text-green-600">
                   SocialMediaLinks by Gustavo Chacon
                 </span>{" "}
-                v1.
+                v2.
               </span>
               <span className="font-lato text-[10px]">
                 BUILDING SOFTWARE WITH<span className="mx-1">❤️</span>TO THE

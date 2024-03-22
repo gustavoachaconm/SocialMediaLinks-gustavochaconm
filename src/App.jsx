@@ -35,17 +35,17 @@ const App = () => {
       });
     }, 2000);
 
-    return () => clearInterval(intervalo); // Limpieza del intervalo
+    return () => clearInterval(intervalo);
   }, []);
 
   return (
     <>
       <nav className=" sticky top-0 flex w-full bg-green-600 p-3 pl-8 text-white">
-        <p className=" font-lato text-xl font-light italic text-green-950 md:text-2xl">
+        <p className=" font-lato text-xl font-light italic text-green-900 md:text-2xl">
           gustavochaconm.
         </p>
       </nav>
-      <div className="flex flex-col justify-center bg-gray-50">
+      <div className="flex flex-col justify-center bg-gray-50 text-green-900">
         <section className="mx-auto  p-9 pt-14">
           <div className="mb-6 flex items-center">
             <Img />
@@ -107,10 +107,15 @@ const App = () => {
           </section>
           <section className="mb-6 flex max-w-[560px] flex-col justify-center font-lato md:px-14">
             <p className=" mb-4 text-center">
-              Soy ingeniero de software y actualmente trabajo como{" "}
-              <span className=" font-semibold text-green-600">freelance</span>{" "}
-              full-stack developer y{" "}
-              <span className=" font-semibold text-green-600">CTO</span>.
+              Ingeniero de software con experiencia sólida como desarrollador
+              <span className=" font-semibold text-green-600">
+                {" "}
+                full-stack
+              </span>{" "}
+              freelance y{" "}
+              <span className=" font-semibold text-green-600">CTO</span>.{" "}
+              Especializado en liderar proyectos tecnológicos y desarrollar
+              soluciones innovadoras de principio a fin.
             </p>
             <p className="mb-4 px-8 text-center text-sm">
               Aquí podrás encontrar todos mis enlaces de interés.
@@ -119,32 +124,36 @@ const App = () => {
               {saludoActual}
             </p>*/}
           </section>
-          <section>
+          <section className="text-green-600">
             <div className="mb-3 font-lato text-xl font-semibold">
               <p>Contacto</p>
             </div>
             <a
-              className="mb-4 flex rounded-md bg-gray-200 p-2"
+              className="group mb-4 flex rounded-xl bg-gray-200 p-2 hover:bg-green-600"
               href="https://api.whatsapp.com/message/4GG6JGWSDYCQF1?autoload=1&app_absent=0"
             >
-              <div className="mr-4 flex items-center">
-                <ChatBubbleBottomCenterIcon className="h-8 fill-green-600" />
+              <div className="mr-4 flex items-center ">
+                <ChatBubbleBottomCenterIcon className="h-8 fill-green-600 group-hover:fill-gray-200" />
               </div>
-              <div className=" font-fira">
+              <div className=" font-lato group-hover:text-gray-200">
                 <h2 className=" font-semibold">Whatsapp</h2>
-                <p className=" text-[12px]">+57 311 5158973</p>
+                <p className=" font-fira text-[12px] text-green-900 group-hover:text-gray-200">
+                  +57 311 5158973
+                </p>
               </div>
             </a>
             <a
-              className="flex rounded-md bg-gray-200 p-2"
+              className="group flex rounded-xl bg-gray-200 p-2 hover:bg-green-600"
               href="mailto:contacto@gustavochaconm.com"
             >
               <div className="mr-4 flex items-center">
-                <EnvelopeIcon className="h-8 fill-green-600" />
+                <EnvelopeIcon className="h-8 fill-green-600 group-hover:fill-gray-200" />
               </div>
-              <div className=" font-fira">
+              <div className=" font-lato group-hover:text-gray-200">
                 <h2 className=" font-semibold">Email</h2>
-                <p className=" text-[12px]">contacto@gustavochaconm.com</p>
+                <p className=" font-fira text-[12px] text-green-900 group-hover:text-gray-200">
+                  contacto@gustavochaconm.com
+                </p>
               </div>
             </a>
           </section>

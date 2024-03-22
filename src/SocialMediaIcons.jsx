@@ -1,6 +1,7 @@
 import { SocialIcon } from "react-social-icons";
 
 const bgColor = "#16a34a";
+const fgColor = "#e5e7eb";
 const styles = "mr-[6px]";
 const animate = "";
 
@@ -10,6 +11,7 @@ export const X = () => {
       <SocialIcon
         className={styles}
         bgColor={bgColor}
+        fgColor={fgColor}
         style={{ width: "100%", height: "100%" }}
         network="x"
       />
@@ -22,6 +24,7 @@ export const Facebook = () => {
       <SocialIcon
         className={styles}
         bgColor={bgColor}
+        fgColor={fgColor}
         style={{ width: "100%", height: "100%" }}
         network="facebook"
       />
@@ -34,6 +37,7 @@ export const Instagram = () => {
       <SocialIcon
         className={styles}
         bgColor={bgColor}
+        fgColor={fgColor}
         style={{ width: "100%", height: "100%" }}
         network="instagram"
       />
@@ -46,6 +50,7 @@ export const Threads = () => {
       <SocialIcon
         className={styles}
         bgColor={bgColor}
+        fgColor={fgColor}
         style={{ width: "100%", height: "100%" }}
         network="threads"
       />
@@ -58,6 +63,7 @@ export const Tiktok = () => {
       <SocialIcon
         className={styles}
         bgColor={bgColor}
+        fgColor={fgColor}
         style={{ width: "100%", height: "100%" }}
         network="tiktok"
       />
@@ -71,6 +77,7 @@ export const Whatsapp = () => {
       <SocialIcon
         className={styles}
         bgColor={bgColor}
+        fgColor={fgColor}
         style={{ width: "100%", height: "100%" }}
         network="whatsapp"
       />

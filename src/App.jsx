@@ -120,9 +120,11 @@ const App = () => {
             <p className="mb-4 px-8 text-center text-sm">
               Aquí podrás encontrar todos mis enlaces de interés.
             </p>
-            {/*<p className="text-center font-fira text-sm font-semibold uppercase">
+            {/*
+            <p className="text-center font-fira text-sm font-semibold uppercase">
               {saludoActual}
-            </p>*/}
+            </p>
+            */}
           </section>
           <section className="text-green-600">
             <div className="mb-3 font-lato text-xl font-semibold">

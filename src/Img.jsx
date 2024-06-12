@@ -1,4 +1,4 @@
-import ProfileImage from "./imgs/IMG_3037.jpg";
+import ProfileImage from "./imgs/IMG_5885.JPG";
 const Img = () => {
   return (
     <img

@@ -54,18 +54,18 @@ const App = () => {
                 Gustavo Chacon
               </h1>
               <a className=" font-lato text-[13px] font-light text-green-500 md:text-[17px] ">
-                <p className="mb-2">@gustavochaconm</p>
+                <p className="mb-2">@gustavoachaconm</p>
               </a>
               <div className="flex">
                 <a
-                  href="https://www.instagram.com/gustavochaconm"
+                  href="https://www.instagram.com/gustavoachaconm"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Instagram />
                 </a>
                 <a
-                  href="https://www.tiktok.com/@gustavochaconm"
+                  href="https://www.tiktok.com/@gustavoachaconm"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -79,25 +79,18 @@ const App = () => {
                   <Facebook />
                 </a>
                 <a
-                  href="https://twitter.com/gustavochaconm"
+                  href="https://twitter.com/gustavoachaconm"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <X />
-                </a>
-                <a
-                  href="https://www.threads.net/@gustavochaconm"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Threads />
                 </a>
               </div>
             </div>
           </div>
           <section className=" mb-6 flex justify-center text-center font-lato text-[13px] font-extralight ">
             <p className="mr-2">
-              <span className="font-bold text-green-600">2+</span> años de
+              <span className="font-bold text-green-600">3+</span> años de
               experiencia
             </p>
             <p>
@@ -146,7 +139,7 @@ const App = () => {
             </a>
             <a
               className="group flex rounded-xl bg-gray-200 p-2 hover:bg-green-600"
-              href="mailto:contacto@gustavochaconm.com"
+              href="mailto:contact@gustavoachaconm.com"
             >
               <div className="mr-4 flex items-center">
                 <EnvelopeIcon className="h-8 fill-green-600 group-hover:fill-gray-200" />
@@ -154,7 +147,7 @@ const App = () => {
               <div className=" font-lato group-hover:text-gray-200">
                 <h2 className=" font-semibold">Email</h2>
                 <p className=" font-fira text-[12px] text-green-900 group-hover:text-gray-200">
-                  contacto@gustavochaconm.com
+                  contact@gustavoachaconm.com
                 </p>
               </div>
             </a>
